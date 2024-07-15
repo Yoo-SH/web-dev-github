@@ -1,0 +1,61 @@
+h1 {
+  font-size: 48px;
+  color: rgb(158, 50, 0);
+  margin: 0px;
+
+}
+
+/* #description{
+    margin-bottom: 36px;
+} */
+
+header p{
+    margin: 12px 0px;
+}
+
+a {
+  border: 8px;
+  border-radius: 4px;
+  padding: 12px 48px;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  font-size: 24px;
+  display: inline-block;
+  margin: 0px;
+  
+}
+
+a:hover {
+  background-color: rgb(180, 12, 90);
+  color: white;
+
+}
+
+ol {
+  list-style: none;
+  width: 500px;
+  margin: 36px auto 0 auto;
+  padding: 0;
+}
+
+li {
+  padding: 16px;
+  margin: 32px;
+  background-color: rgb(255, 117, 98);
+  border-radius: 6px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: rgb(78,13,15);
+
+} 
+
+main p {
+    color: rgb(78,13,15);
+}
+
+.clear-days{
+    background-color: rgb(243, 39, 12);
+    
+}
