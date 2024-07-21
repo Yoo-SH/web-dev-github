@@ -7,9 +7,7 @@ body{
 ul{
     list-style: none;
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0; 
 }
 
 li{
@@ -20,9 +18,24 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
+header a{
+    color: rgb(255,251,0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
 
+header a:hover{
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
 header ul{
     display: flex;
 }
