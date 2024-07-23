@@ -59,7 +59,8 @@
 }
 
 #highlights{
-    highlights
+    padding:24px;
+    background: linear-gradient(45deg, rgb(227,255,253), rgb(10,134,126));
 }
 
 #highlights h2{
