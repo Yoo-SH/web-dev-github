@@ -18,11 +18,31 @@
       <label for="useremail">Your email adress</label>
       <input type="eamil" name="user-email" id="useremail" />
       <label for="userage">Your age</label>
-      <input type="number" step= "1" name="user-age" id="userage" />
+      <input type="number" step="1" name="user-age" id="userage" />
       <label for="iserpassword">Your password</label>
       <input type="password" name="user-password" id="userpassword" />
       <label for="birthadte">Your birthadte</label>
       <input type="date" name="user-birthdate" id="birthadte" />
+      <hr />
+      <h2>How should we verify your account?</h2>
+      <div class="form-control-inline">
+        <label for="verify-text-message">Via text message (SMS)</label>
+        <input
+          type="radio"
+          name="verify"
+          id="verify-text-message"
+          value="text-message"
+        />
+      </div>
+      <div class="form-control-inline">
+        <label for="verify-phone">Via a phone call</label>
+        <input type="radio" name="verify" id="verify-phone" value="phone" />
+      </div>
+      <div class="form-control-inline">
+        <label for="verify-email">Via an email</label>
+        <input type="radio" name="verify" id="verify-email" value="email" />
+      </div>
+
       <button>Submit</button>
     </form>
   </body>
