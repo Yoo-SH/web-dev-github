@@ -8,6 +8,9 @@ h1{
     color: white;
 }
 
+textarea{
+    resize: none;
+}
 
 ul{
     list-style: none;
