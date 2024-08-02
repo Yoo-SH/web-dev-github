@@ -32,4 +32,10 @@ let firstH1Element = document.querySelector('h1');
 
 //2. 삭제
 firstH1Element.remove()
-firstH1Element.parentElement.removeChild(firstH1Element);
+/*firstH1Element.parentElement.removeChild(firstH1Element);*/
+
+
+//MOVE ELEMENTS
+firstParagraph.parentElement.append(firstParagraph);
+
+
