@@ -38,4 +38,7 @@ firstH1Element.remove()
 //MOVE ELEMENTS
 firstParagraph.parentElement.append(firstParagraph);
 
+//innerHTML
 
+firstParagraph.innerHTML = "HI! This is <strong> important </strong>" +
+"inner test "
