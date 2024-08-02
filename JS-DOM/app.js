@@ -8,3 +8,18 @@ anchorElement.href = 'https://google.com'
 
 let anchorElement = document.querySelector('p a');
 anchorElement.href = 'https://www.instagram.com'
+
+//ADD AN ELEMENT
+//1. 새로운 엘리먼트를 생성
+
+let newAnchorElement = document.createElement('a');
+newAnchorElement.href = 'https://google.com'
+newAnchorElement.textContent = 'This leads to Google!'
+
+//2. 새로운 엘리먼트를 가져야할 부모 엘리먼트에 접근
+
+let firstParagraph = document.querySelector('p')
+
+//3. 새로운 엘리먼트를 부모 엘리먼트에 삽입함.
+
+firstParagraph.append(newAnchorElement)
