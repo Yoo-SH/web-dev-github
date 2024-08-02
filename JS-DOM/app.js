@@ -23,3 +23,12 @@ let firstParagraph = document.querySelector('p')
 //3. 새로운 엘리먼트를 부모 엘리먼트에 삽입함.
 
 firstParagraph.append(newAnchorElement)
+
+
+//REMOVE ELEMENTS
+//1. 삭제되어야할 엘리먼트를 선택
+
+let firstH1Element = document.querySelector('h1');
+
+//2. 삭제
+firstH1Element.remove()
